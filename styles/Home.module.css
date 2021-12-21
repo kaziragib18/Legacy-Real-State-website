@@ -1,10 +1,12 @@
 .container {
   padding: 0 2rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .main {
   min-height: 100vh;
   padding: 4rem 0;
+  font-family: 'Poppins', sans-serif;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -14,6 +16,7 @@
 
 .footer {
   display: flex;
+  font-family: 'Poppins', sans-serif;
   flex: 1;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
@@ -23,6 +26,7 @@
 
 .footer a {
   display: flex;
+  font-family: 'Poppins', sans-serif;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
@@ -31,7 +35,9 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
+  font-family: 'Poppins', sans-serif;
 }
+
 
 .title a:hover,
 .title a:focus,
@@ -43,17 +49,20 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .title,
 .description {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .description {
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .code {
@@ -71,6 +80,7 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .card {
@@ -83,6 +93,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .card:hover,
@@ -95,17 +106,20 @@
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
 }
 
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media (max-width: 600px) {
