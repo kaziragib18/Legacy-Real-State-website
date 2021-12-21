@@ -28,11 +28,11 @@ const Search = ({properties}) => {
         alignItems='center'
         onClick={() => setSearchFilters((prevFilters) => !prevFilters)}
       >
-        <Text>Search Property By Filters</Text>
+        <Text >Search Property By Filters</Text>
         <Icon paddingLeft='2' w='7' as={BsFilter} />
       </Flex>
       {searchFilters && <SearchFilters />}
-      <Text fontSize='2xl' p='4' fontWeight='bold'>
+      <Text fontSize='2xl' p='4' fontWeight='600' color="blue.500" fontFamily="Poppins">
         Properties {router.query.purpose}
       </Text>
       <Flex flexWrap='wrap'>
@@ -41,7 +41,7 @@ const Search = ({properties}) => {
       {properties.length === 0 && (
         <Flex justifyContent='center' alignItems='center' flexDir='column' marginTop='5' marginBottom='5'>
           <Image src={noresult} alt='no result' />
-          <Text fontSize='xl' marginTop='3' fontFamily='urbanist'>No Result Found!</Text>
+          <Text fontSize='2xl' marginTop='3' fontFamily='urbanist'>No Result Found!</Text>
         </Flex>
       )}
     </Box>
