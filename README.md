@@ -1,3 +1,58 @@
+# Legacy – Real Estate Application
+
+**Live Demo:** [legacy-real-state-website.vercel.app](https://legacy-real-state-website.vercel.app/)
+
+---
+
+## About
+
+**Legacy** is a modern and fully responsive Real Estate web application built with **Next.js**.  
+It allows users to browse rental and for-sale properties with advanced filtering options and detailed property views, providing a seamless real estate search experience.  
+
+The project integrates the **Bayut API** for property data and leverages **Chakra UI** for a clean, responsive design.
+
+---
+
+## Features
+
+- Browse **rental** and **for-sale** properties  
+- Advanced property **filtering** by type, location, price, and more  
+- Detailed property page with **image carousel**  
+- Fully responsive layout for **desktop, tablet, and mobile**  
+- Built using **Next.js** for fast and optimized performance  
+- Styled with **Chakra UI** for a consistent and modern UI  
+- Integration with **Bayut API** for live property data  
+
+---
+
+## Technologies Used
+
+- **Next.js** – React framework for server-side rendering  
+- **React** – Component-based frontend library  
+- **Chakra UI** – For responsive and accessible UI components  
+- **JavaScript** – Dynamic interactivity  
+- **Bayut API** – Real estate property data  
+- **Vercel** – Hosting and deployment  
+
+---
+
+## Pages
+
+- **Home Page** – Showcase featured properties and search functionality  
+- **Property Listings** – Browse properties with advanced filtering  
+- **Property Details** – View full details and images of each property  
+- **Responsive Navigation** – Easy-to-use menu across devices  
+
+---
+
+## Installation & Setup
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/legacy-real-estate.git
+   cd legacy-real-estate
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
